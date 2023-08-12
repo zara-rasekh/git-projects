@@ -1,0 +1,52 @@
+#include<iostream>
+#include<stdio.h>
+#include<string>
+
+using namespace std;
+
+int main(){
+	int num, dose,days;
+	string s1;
+	
+	
+	for(int i=0;i<15;i++){
+		cout<<"Your name is:"<<endl;
+		cin>>s1;
+		
+		cout<<"Your student number is:"<<endl;
+		cin>>num;
+		
+		cout<<"How many doses of the vaccine have you received?"<<endl;
+		cin>>dose;
+		
+		cout<<"How many days have passed since you've received it?"<<endl;
+		cin>>days;
+		
+		
+		
+		if(dose==2 && days==30){
+		cout<<"You can participate in the class"<<endl;
+	
+		
+	}
+		
+	    else if(dose==3 && days==14){
+			cout<<"You can participate in the class,too"<<endl;
+			
+			
+		}
+		
+		else{
+		
+			cout<<"sorry, you can't participate in the class"<<endl;
+	}
+		
+		
+	
+	}
+
+
+	
+	
+		return 0;
+	}
